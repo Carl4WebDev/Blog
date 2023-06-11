@@ -1,0 +1,86 @@
+.my_nav {
+
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+    background-color: whitesmoke !important;
+    
+}
+.navbar-links{
+    color: black;
+    font-weight: bolder;
+}
+.main-header {
+    background-image: url(tree-736885_1280.jpg);
+    padding-bottom: 4em;
+    padding-top: 4em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.default-header{
+    background-image: url(tree-736885_1280.jpg);
+    padding-bottom: 60px;
+    padding-top:100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-text-holder , .subscribe-holder {
+    color: white;
+    text-align: center;
+}
+.default-header-text-holder {
+    color: white;
+}
+.default-header-text-holder h1 {
+    font-size: 3em;
+}
+.home-body-content , .default-body-content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.default-body-content .list-group .list-group-item h3 {
+    font-size: 2em;
+}
+.default-body-content .list-group .list-group-item h3 a{
+    padding-top: 20px;
+    color: black;
+}
+.home-body-content .my_card{
+    margin-bottom: 25px;
+}
+.my_card h3 {
+    font-size: 1.2em;
+
+}
+.my_card{
+    transition: all 250ms ease-in-out;
+}
+.my_card:hover {
+    box-shadow: 2px 2px 10px g;
+    animation-name: card-box;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+@keyframes card-box {
+    0%   {transform: rotate(-1deg);}
+    25%  {transform: rotate(1deg);}
+    50%  {transform: rotate(-1deg);}
+    100% {transform: rotate(1deg);}
+}
+
+footer.main-footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    background-color: black;
+}
+footer.main-footer p {
+    margin: 0;
+}
+.not-found-content .container .row img{
+    height: 40vh;
+    width: 100rem;
+} 
